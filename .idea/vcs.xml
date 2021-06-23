@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ Working_with_files" vcs="" />
+    <mapping directory="$PROJECT_DIR$/API_with_python" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Eng88_python" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Engineering88" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Networking" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Python_Functions" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Python_OOP" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Python_TDD" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Python_Tasks" vcs="" />
+    <mapping directory="$PROJECT_DIR$/TDD_task" vcs="" />
+    <mapping directory="$PROJECT_DIR$/eng88_python_control_flow" vcs="" />
+    <mapping directory="$PROJECT_DIR$/virtualization" vcs="" />
+  </component>
+</project>

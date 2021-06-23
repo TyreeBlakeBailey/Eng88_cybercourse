@@ -1,0 +1,15 @@
+	Grep “example” file.txt
+o	Will search through file.txt for word example
+	More/ Less
+o	Prints the content of a file page by page
+	Head/Tail
+o	Prints the top/button section of the file respectively
+	cat /etc/passwd
+o	Prints all the users of the system
+o	Grep user /etc/passwd (Only show given user)
+	Nano/ Vim
+o	Used to edit a file
+	Chmod
+o	Allows you to change the mode of the file (who can execute)
+	Chown
+o	Allows you to changed the ownership of the file
