@@ -1,4 +1,4 @@
-# Hypervisor types
+# Hypervisor Types
 
 ## Type 1 | Type 2
 
