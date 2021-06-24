@@ -1,11 +1,15 @@
 # Vagrant
-* Software that you use to manage vms
+* Software that you used to manage vms
 * You can run a file that creates a vm on the staffs pc
 * It is a building and management software 
-* It is not a VM or a Hypervisor    
+* It is not a VM or a Hypervisor   
+* it needs a hypervisor to run the Virtual machine 
+
 ![img.png](img.png)
   
 ![img_11.png](img_11.png)
+
+
 ## Commands
 * “Vagrant Init hashicorp/bionic64”(Name of OS)
       
