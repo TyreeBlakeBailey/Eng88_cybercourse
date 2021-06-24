@@ -50,7 +50,7 @@ Separates the front and back end of the project
 **What is DevOps**
 
 ![img_3.png](img_3.png)
-**DevOps Values CAMS Model**
+**DevOps Values CAMS (Culture, Automation, Measurement, Sharing) Model**
 
 - Sharing
   - Ensure that there is a blame free environment to ensure the team are willing to share everything to make the project go smoothly
