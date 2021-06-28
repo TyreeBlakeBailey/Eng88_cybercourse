@@ -1,5 +1,5 @@
 from flask import Flask, request, abort
-import calculator.calc_functions as calc_functions
+import calc_functions as calc_functions
 
 
 def read_number(number_id):
@@ -33,7 +33,8 @@ def perform_add_query():
 
 
 
-#if __name__=='__main__':
+if __name__=='__main__':
+    app.run(debug=True, host='0.0.0.0') # allows it recieve all teh connections on the same container
     #number1 = read_number(1)
     #number2 = read_number(2)
 
