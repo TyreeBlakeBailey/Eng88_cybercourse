@@ -15,4 +15,8 @@ Docker is a set of platform as a service products that use OS-level virtualizati
 * docker -ps 
     - shows all the running containers
 * docker run -it ubuntu bash
-    * Will run a new container with ubuntu OS with bash available 
+    * Will run a new container with ubuntu OS with bash available
+  ### When building a docker file
+* docker build -t DOCKER_REPO_ID .
+* docker login
+* docker push DOCKER_REPO_ID
