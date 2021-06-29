@@ -10,6 +10,8 @@ for example when you start creating the AWS
 
 ## Terraform commands
     terraform init
+    terraform validate
+    terraform plan
     terraform apply
     ssh ec2-user@ec2-34-243-221-232.eu-west-1.compute.amazonaws.com
     terraform destroy
