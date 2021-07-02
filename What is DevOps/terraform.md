@@ -18,6 +18,8 @@ for example when you start creating the AWS
 
 ### main.tf
 
+    This file allows you set up a AWS intances by running the files below
+
 ```terraform
 terraform {
   required_providers{
@@ -33,20 +35,20 @@ provider "aws" {
   region = "eu-west-1"
 }
 
-resource "aws_default_vpc" "web_server_vpc_tf"{
+resource "aws_default_vpc" "tyree_web_server_vpc_tf"{
 
 }
 
 
-data "aws_subnet_ids" "web_server_subnet_tf"{
-  vpc_id = aws_default_vpc.web_server_vpc_tf.id
+data "aws_subnet_ids" "tyree_web_server_subnet_tf"{
+  vpc_id = aws_default_vpc.tyree_web_server_vpc_tf.id
 }
 
 
-resource "aws_security_group" "web_server_security_group_tf" {
-  name = "web_server_security_group"
+resource "aws_security_group" "tyree_web_server_security_group_tf" {
+  name = "tyree_web_server_security_group"
 
-  vpc_id = aws_default_vpc.web_server_vpc_tf.id
+  vpc_id = aws_default_vpc.tyree_web_server_vpc_tf.id
 
   ingress {
     from_port = 80
@@ -71,14 +73,44 @@ resource "aws_security_group" "web_server_security_group_tf" {
 
 }
 
-resource "aws_instance" "web_server_instance"{
+
+variable "aws_private_key"{
+default = "/home/kali/.ssh/cyber-tblake-bailey-key.pem"
+}
+
+resource "aws_instance" "tyree_web_server_instance"{
   ami                         = "ami-0f89681a05a3a9de7"
   instance_type               = "t2.micro"
-  subnet_id                   = tolist(data.aws_subnet_ids.web_server_subnet_tf.ids)[0]
+  subnet_id                   = tolist(data.aws_subnet_ids.tyree_web_server_subnet_tf.ids)[0]
   associate_public_ip_address = true
   key_name                    = "cyber-tblake-bailey-key"
-  vpc_security_group_ids      = [aws_security_group.web_server_security_group_tf.id]
+  vpc_security_group_ids      = [aws_security_group.tyree_web_server_security_group_tf.id]
+
+  connection {
+    type ="ssh"
+    host = self.public_ip
+    user = "ec2-user"
+    private_key = file(var.aws_private_key)
+  }
+
+  provisioner "remote-exec" {
+    inline = [
+      "sudo yum update -y",
+      "sudo amazon-linux-extras install docker -y",
+      "sudo yum install docker -y",
+      "sudo service docker start",
+      "sudo usermod -a -G docker ec2-user"
+    ]
+  }
+
+  provisioner "remote-exec" {
+    inline = [
+      "docker run -d -p 80:5000 tyreebb/docker-flask"
+    ]
+  }
 }
 
 
+
 ```
+![img_10.png](img_10.png)
