@@ -17,13 +17,14 @@
 ## Ciphers 
 
 ### Substitution cipher
-Has a method, and a key for example below the key is 3 and the method is move along the alphabet by the number of the key
+Has a method, and a key for example below the key is 3, and the method is move along the alphabet by the number of the key
+* Caesar Cipher
 ![img_7.png](img_7.png)
 
 ### Transposition Cipher
 * No letter are replaces
 * The letters are rearranged
-
+![img_17.png](img_17.png)
 ## Encryption Classes
 
 ### Symmetric encryption algorithms
@@ -79,3 +80,12 @@ https://www.devglan.com/online-tools/aes-encryption-decryption
 https://www.youtube.com/watch?v=gP4PqVGudtg
 
 https://asecuritysite.com/encryption/diffie
+
+# References
+
+1. https://www.kaspersky.com/resource-center/definitions/what-is-cryptography
+2. https://www.guru99.com/difference-encryption-decryption.html 
+3. https://itexamanswers.net/ccna-cyber-ops-version-1-1-chapter-9-cryptography-and-the-public-key-infrastructure.html
+4. https://itexamanswers.net/cyberops-associate-module-21-cryptography.html
+5. https://www.thesslstore.com/blog/difference-encryption-hashing-salting/ 
+6. https://itexamanswers.net/ccna-security-2-0-study-material-chapter-7-cryptographic-systems.html

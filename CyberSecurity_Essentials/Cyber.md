@@ -96,3 +96,19 @@
 ![img_3.png](img_3.png)
 8. Retreat
    * Deleting any trace of the attacks existence 
+    
+
+# Reference
+
+1. https://en.wikipedia.org/wiki/McCumber_cube 
+2. https://btu.edu.eg/wp-content/uploads/2020/03/Chapter-2-The-Cybersecurity-Cube.pdf 
+3. https://analyticsindiamag.com/decoding-cyber-basics-threat-vulnerability-exploit-risk/ 
+4. https://www.compuquip.com/blog/cybersecurity-threats-vulnerabilities
+5. https://www.icann.org/news/blog/threats-vulnerabilities-and-exploits-oh-my 
+6. https://cyber.gc.ca/en/guidance/cyber-threat-and-cyber-threat-actors 
+7. https://www.ncsc.gov.uk/information/how-cyber-attacks-work 
+8. https://www.threatanalysis.com/2010/05/03/threat-vulnerability-risk-commonly-mixed-up-terms/ 
+9. https://www.upguard.com/blog/cyber-threat 
+10. https://www.bulletproof.co.uk/blog/what-is-the-cyber-kill-chain 
+11. https://secureteam.co.uk/articles/information-assurance/what-is-the-cyber-kill-chain/ 
+12. https://www.softwaretestinghelp.com/penetration-testing-guide/
