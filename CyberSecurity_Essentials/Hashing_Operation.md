@@ -1,7 +1,7 @@
 # Cryptographic Hash Operation
 
 * Used for data integrity
-* Based on a one-way mathematical function that is relatively easy to compute, but harder to reverse 
+* Based on a *one-way* mathematical function that is relatively easy to compute, but harder to reverse 
 * can be used to ensure Authentication
 ![img_18.png](img_18.png)
   
