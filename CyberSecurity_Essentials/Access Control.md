@@ -9,9 +9,9 @@
 * RBAC
     * Based on the individuals role and the responsible within the organisation
 * ABAC
-    * Control teh resource (attribute) based of the environmental factors such as time
+    * Control the resource (attribute) based of the environmental factors such as time
 * RBAC
-    * Set of rule regarding teh conditions of the access list i.e ACL
+    * Set of rule regarding the conditions of the access list i.e ACL
 * TAC
 
 * The principle of the least privilege

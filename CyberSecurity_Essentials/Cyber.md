@@ -4,12 +4,12 @@
 
     A model framework for establishing and evaluation information secuirty programs
 ### 1. Desired goals
-   * Confidentiality
-        * Unauthorised access is prevented 
-   * Integrity
-        * Data should not be modified
-    * Availability
-        * Access should not be unavailable 
+* Confidentiality
+    * Unauthorised access is prevented 
+* Integrity
+    * Data should not be modified 
+ * Availability
+    * Access should not be unavailable 
 ### 2. Data States
    * Transmission
         * Transferring data between information systems known as DIT (Data in Transit)

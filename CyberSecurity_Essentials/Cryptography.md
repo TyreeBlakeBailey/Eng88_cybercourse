@@ -52,6 +52,7 @@ Has a method, and a key for example below the key is 3, and the method is move a
 ![img_13.png](img_13.png)
 ### Authentication
 When you encrypt the message with the private key the receiver can be sure that it has come from the correct user as only they will  have the private key 
+Integrity of the message is solid as no one can change it and re-encrypted it. 
 ![img_14.png](img_14.png)
 
 ## Diffie-Hellman

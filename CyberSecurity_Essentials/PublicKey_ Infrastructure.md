@@ -1,9 +1,9 @@
 # Digital Signature
 ![img_21.png](img_21.png)
 
-## Digital Signature (DSA) 
-## Rivet-Shamir Adleman Algorithm (RSA)
-## Elliptic Curve Digital Signature Algorithm (ECDSA)
+### Digital Signature (DSA) 
+### Rivet-Shamir Adleman Algorithm (RSA)
+### Elliptic Curve Digital Signature Algorithm (ECDSA)
 
 ## Code signing
     Digital signatures are commonly used to provide assurance of the authenticity and integrity of sofwtare code
