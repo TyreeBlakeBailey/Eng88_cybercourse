@@ -6,7 +6,7 @@ Incident Response (IR):
 
 A well-defined incident response plan(IRP)
 
-`Allows you to effectively identify minimize the damage, and reduce the cost of a cyber attack, while finding and fixing teh cause to prevent future attacks`
+`Allows you to effectively identify minimize the damage, and reduce the cost of a cyber attack, while finding and fixing the cause to prevent future attacks`
 
 ## Incident Categorisation
 
@@ -83,7 +83,7 @@ A well-defined incident response plan(IRP)
 `Coollect data from mobile devices`
 - SMS (Short message servcies)
 - Emails
-- Data regarding location of teh user 
+- Data regarding location of the user 
 - Call logs
 - User dictionary content
 - Data from installed applications 
@@ -130,7 +130,7 @@ Contains various cloud actors:
     - Can minimise the damage to a network if completed correctly
 - Phase 2 - Search and seizure
 - Phase 3 - Collect the evidence
-- Phase 4 - Secure teh evidence
+- Phase 4 - Secure the evidence
 - Phase 5 - Data Acquisition
 - Phase 6 - Data Analysis
 - Phase 7 - Evidence assessment 
